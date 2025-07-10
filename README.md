@@ -22,17 +22,20 @@ A sophisticated TypeScript-based tool for extracting, analyzing, and matching co
 ## 📦 Installation
 
 1. **Clone or download the repository**
+
 ```bash
 git clone https://github.com/leighquince/colour_matcher.git
 cd colour_matcher
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
 
 3. **Build the project**
+
 ```bash
 npm run build
 ```
@@ -102,6 +105,7 @@ const debugMode = true;             // Enable debug output and images
 ## 📋 CSV Output Format
 
 ### Simple Format (`style_color_mapping.csv`)
+
 ```csv
 Style Number,Color Code
 123456,C10001
@@ -112,6 +116,7 @@ Style Number,Color Code
 ```
 
 ### Detailed Format (`detailed_style_color_mapping.csv`)
+
 ```csv
 Style Number,Style Name,Color Code,Color Name,Pantone Color,RGB Hex,Confidence %
 123456,PREMIUM T-SHIRT,C10001,Classic Black,19-4007 TCX,#1c1c1c,98.5
@@ -174,21 +179,25 @@ colour_matcher/
 ### Common Issues
 
 **1. "PDF file not found" Error**
+
 - Ensure the PDF path is correct
 - Use absolute paths if relative paths don't work
 - Check file permissions
 
 **2. OCR Recognition Issues**
+
 - Ensure PDF has sufficient resolution
 - Check that text in PDF is clear and readable
 - Increase DPI setting in configuration
 
 **3. Color Matching Problems**
+
 - Verify reference colors are properly extracted
 - Adjust color distance threshold in ColorMatcher
 - Check debug images for visual confirmation
 
 **4. Build Errors**
+
 - Ensure all dependencies are installed: `npm install`
 - Verify Node.js version: `node --version`
 - Clear npm cache: `npm cache clean --force`
@@ -205,6 +214,7 @@ Enable debug mode for detailed logging and visual output:
 ## 📝 Dependencies
 
 ### Core Dependencies
+
 - **TypeScript** - Type-safe JavaScript development
 - **pdf2pic** - PDF to image conversion
 - **Tesseract.js** - OCR text recognition
@@ -212,28 +222,8 @@ Enable debug mode for detailed logging and visual output:
 - **colorjs.io** - Color space calculations
 
 ### Development Dependencies
+
 - **ts-node** - TypeScript execution for development
 - **@types/node** - TypeScript definitions for Node.js
 
-## 📄 License
-
-This project is licensed under the ISC License - see the LICENSE file for details.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📞 Support
-
-For issues, questions, or contributions, please:
-1. Check the troubleshooting section above
-2. Review existing issues in the repository
-3. Create a new issue with detailed information about your problem
-
----
-
-**Built with ❤️ using TypeScript and modern Node.js technologies** 
+**Built with ❤️ using TypeScript and modern Node.js technologies**
