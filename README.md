@@ -23,7 +23,7 @@ A sophisticated TypeScript-based tool for extracting, analyzing, and matching co
 
 1. **Clone or download the repository**
 ```bash
-git clone <repository-url>
+git clone https://github.com/leighquince/colour_matcher.git
 cd colour_matcher
 ```
 
