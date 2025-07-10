@@ -33,7 +33,7 @@ async function main() {
   const outputDir = path.join(__dirname, '..', 'output');
   const debugMode = true;
   const highDPI = 1200; // Very high DPI for maximum OCR text recognition
-  const processReferences = false; // Set to false to skip reference color processing
+  const processReferences = true; // Set to false to skip reference color processing
   const processSwatches = true; // Set to false to skip swatch processing
   const processColorMatching = true; // Set to false to skip color matching
   const generateCSV = true; // Set to false to skip CSV generation
